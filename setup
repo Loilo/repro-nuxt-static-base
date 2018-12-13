@@ -1,0 +1,5 @@
+#!/bin/bash
+git clone https://github.com/Loilo/repro-nuxt-static-base.git
+cd repro-nuxt-static-base
+npm install
+npm run generate-and-serve

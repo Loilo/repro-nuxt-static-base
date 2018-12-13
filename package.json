@@ -1,0 +1,24 @@
+{
+  "name": "repro-nuxt-static-base",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for &#34;nuxt generate&#34; issues with static assets and router base",
+  "author": "Loilo",
+  "bin": {
+    "repro-nuxt-static-base": "setup"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate-and-serve": "nuxt generate && http-server -p 7331 -o"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "http-server": "^0.11.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
