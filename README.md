@@ -1,6 +1,6 @@
 # repro-nuxt-static-base
 
-> Minimal reproduction for "nuxt generate" issues with static assets and router base
+> Minimal reproduction for ["nuxt generate" issues with static assets and router base](https://github.com/nuxt/nuxt.js/issues/4544)
 
 This is a minimal demo site that is served at domain root `/` in dev mode but served under `/demo` in production mode.
 
